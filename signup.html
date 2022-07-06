@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" href="signup.css"/>
+        <script src="signup.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="font-family: Verdana, sans-serif">
+        <script src="signup.js"></script>
+        <main>
+            <section class="glass">
+                <div class="container">
+                    <span class="title">Register!</span>
+                 <form name="form1" method="post" action="#" onsubmit="return validate()">
+                    <div class="user-info">
+                        <div class="inputs-fill">
+                            <span class="details">First Name</span>
+                            <input type="text" name="f_name" placeholder="Shirou"/>
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Last Name</span>
+                            <input type="text" name="l_name" placeholder="Emiya"/>
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Username</span>
+                            <input type="text" name="u_name" placeholder="archer063"/>
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Phone Number</span>
+                            <input type="number" name="p_no" />
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Email ID</span>
+                            <input type="email" name="email" placeholder="email@domain.com"/>
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Password</span>
+                            <input type="password" name="f_pass"/>
+                        </div>
+                        <div class="inputs-fill">
+                            <span class="details">Confirm password</span>
+                            <input type="password" name="c_pass"/>
+                        </div>
+                    </div>
+                    <div class="gender-info">
+                        <span class="gender">Gender</span>
+                        <div class="category" style="text-align:center ;">
+                            
+                                Male<input class="rad" type="radio" value="m" name="gen"/> 
+                                Female<input class="rad" type="radio" value="f" name="gen"/> 
+                            
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <input class="b1" type="submit" value="Create Account" style="padding: 10px; margin:0 1rem;" />
+                        <input class="b2" type="reset" value="Clear" style="padding: 10px; margin:0 1rem;"/>
+                    </div>
+                    <a href="login.html"><span class="member">Already a member?</span></a>
+                </div>
+                
+            </section>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </main>
+
+    </body>
+</html>

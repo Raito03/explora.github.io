@@ -1,0 +1,38 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+ul
+{
+    list-style: none;
+}
+footer{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+.team
+{
+    display: grid;
+    width: 40%;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.follow{
+    width: max-content;
+    
+    margin: 0;
+}
+.links{
+    
+    width: max-content;
+    margin-bottom: 3%;
+}

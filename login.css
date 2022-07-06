@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#000428,#004E92);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+    
+
+.glass
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    height: 50vh;
+    width: 30vw;
+ 
+}
+.login
+{
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 2px;
+    margin-left: 36px;
+    padding:0 0 5px 0 ; 
+    border-bottom:2px solid #6190E8;
+    border-radius: 2px;  
+    text-align: center;
+}
+form
+{
+    box-sizing: border-box;
+}
+.fill-input
+{
+    position: relative;
+    margin: 40px 0;
+    border-bottom: 3px solid #adadad;
+}
+input
+{
+    width: 100%;
+    border-radius: 5px;
+    background:none;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 5px;
+}
+label{
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    transform: translateY(-100%);
+    font-size: 16px;
+    color: #adadad;
+    transition: all 0.5s ;
+}
+.buttons{
+    transition: all .5s;
+    padding:0 0 50px 0;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons:hover
+{
+    transform: scale(1.3) translateY(5px);   
+}
+.sub.buttons:hover{
+    background-color: skyblue;
+}
+
+
+/*label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #adadad;
+    transition: all 0.5s ;
+}
+label:hover{
+    transform: translateY(60%);
+}
+input:hover + label{
+    transform: translateY(60%);
+}
+.span::before{
+    content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}*/
+
+ /*input:focus ~ label, input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+input:focus ~ span::before,
+ input:valid ~ span::before{
+  width: 100%;
+}
+input:hover,
+*/
+
+

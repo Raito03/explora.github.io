@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vh;
+    background: linear-gradient(to right top,#9600FF,#AEBAF8);  
+   
+}
+.glass
+{
+    background: #ffffff;
+    max-height: 100vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.container
+{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    font-size:  25px;
+    font-weight: 500;
+}
+.user-info
+{
+    display: Flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.inputs-fill
+{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2- 2px);
+}
+.details
+{
+    display:block;
+    font-weight: 500;
+    margin-bottom:5px;
+}
+input{
+    height: 45 px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:3px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.buttons
+{
+    display: inline-flex;
+    
+    margin-left: 150px;
+    height: 60%;
+    max-width: 60%;
+}
+.b1,.b2{
+    height: 3rem;
+    width: 8rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.gender-info{
+    font-size: 20px;
+    font-weight: 100;
+}
+.gender
+{
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.category
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.rad
+{
+    padding: 0;
+    margin-right:1vw;
+    width: 5%;
+}
+.member
+{
+    font-size: small;
+}
+input:focus::placeholder{
+    opacity: 0;
+}
+.circle1,.circle2
+{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(116, 247, 247, 0.89),rgba(0,128,128,0.3));
+    height: 12rem;
+    width: 12rem;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    position: absolute;
+    border-radius: 50%;
+
+}
+.circle1
+{
+    bottom:13%;
+    left:15%;
+}
+.circle2{
+    top:13%;
+    right:15%
+}
+.b1:hover,.b2:hover
+{
+    background-color: #6190E8;
+}
